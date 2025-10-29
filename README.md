@@ -4,7 +4,6 @@ This project shows how to **run a simple Python app inside Docker**
 
 ---
 
-## 🧩 1. Files in This Project
 
 **Dockerfile**
 ```dockerfile
