@@ -16,7 +16,7 @@ CMD ["python", "app.py"]
 
 
 **app.py**
-```app.py
+```Python File
 
 print("Hello from Docker running inside an EC2 instance!")
 
