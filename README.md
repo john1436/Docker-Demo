@@ -6,7 +6,7 @@ This project shows how to **run a simple Python app inside Docker**
 
 
 **Docker File**
-
+```dockerfile
 FROM python:3.10-slim
 WORKDIR /app
 COPY . .
