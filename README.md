@@ -5,8 +5,8 @@ This project shows how to **run a simple Python app inside Docker**
 ---
 
 
-**Dockerfile**
-```dockerfile
+**Docker File**
+
 FROM python:3.10-slim
 WORKDIR /app
 COPY . .
@@ -15,8 +15,8 @@ CMD ["python", "app.py"]
 ---
 
 
-**app.py**
-```Python File
+**Python App**
+
 
 print("Hello from Docker running inside an EC2 instance!")
 
