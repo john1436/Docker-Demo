@@ -14,6 +14,8 @@ CMD ["python", "app.py"]
 
 
 **app.py**
+```app.py
+
 print("Hello from Docker running inside an EC2 instance!")
 
 ## 🚀 How to Build and Run
